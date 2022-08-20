@@ -1,0 +1,13 @@
+.button-container{
+    height: 55px;
+    background: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1026px) {
+    .button-container {
+        display: none;
+    }
+}

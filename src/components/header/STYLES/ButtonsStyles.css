@@ -1,0 +1,41 @@
+.btn-container{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.product-link{
+    margin-right: 15%;
+    position: relative;
+    color: #222222;
+    font-size: 20px;
+    font-weight: bold;
+}
+.product-link:hover{
+    color: black;
+}
+
+.product-link::after {
+    position: absolute;
+    left: 50%;
+    bottom: -6px;
+    content: ' ';
+    border-radius: 2px;
+    width: 70%;
+    height: 4px;
+    background: #222;
+    transform: translate(-50%);
+}
+
+
+.manu-link{
+    margin-left:20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.manu-link:hover{
+    color: rgb(227,83,0);
+}
