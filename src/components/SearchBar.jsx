@@ -2,6 +2,7 @@ import { blue } from '@mui/material/colors';
 import React , { useState, useRef, useEffect } from 'react';
 import { AutoSuggest } from 'react-autosuggestions';
 import {Data} from './header/SearchingData';
+import SearchIcon from '@mui/icons-material/Search';
 
 import "./header/STYLES/SearchBarStyles.css";
 
@@ -51,8 +52,8 @@ const SearchBar = () => {
   return (
       <div className="search-container" ref={wrapperRef}>
         <div className="search-inner">
-          <input type="text" value={value} onChange={onChange} />
-          <button onClick={() => onSearch(value)}> Search </button>
+          <input className='search-input' type="text" value={value} onChange={onChange} />
+          <button  onClick={() => onSearch(value)}> <SearchIcon/> <p>Search</p> </button>
         </div>
         <div className="dropdown" ref={wrapperRef}>
           {Data
