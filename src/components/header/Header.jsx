@@ -2,7 +2,10 @@ import React from 'react';
 import SearchBar from '../SearchBar';
 import Buttons from './Buttons';
 import HeaderLogo from './HeaderLogo';
+import Messages from './Messages';
+import Orders from './Orders';
 import SearchBarMain from './SearchBarMain';
+import SignLoginBtn from './SignLoginBtn';
 import './STYLES/HeaderStyles.css';
 
 const Header = () => {
@@ -15,6 +18,9 @@ const Header = () => {
                 <HeaderLogo/>
                 <SearchBar/>
                 {/* <SearchBarMain/> */}
+                <SignLoginBtn/>
+                <Messages/>
+                <Orders/>
             </div>
             <div className="heder-lower col-md-12 ">
                 ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss

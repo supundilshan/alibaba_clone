@@ -4,6 +4,8 @@ import { AutoSuggest } from 'react-autosuggestions';
 import {Data} from './header/SearchingData';
 import SearchIcon from '@mui/icons-material/Search';
 
+import SearchHistory from './header/SerchHistory';
+
 import "./header/STYLES/SearchBarStyles.css";
 
 const SearchBar = () => {
@@ -52,7 +54,7 @@ const SearchBar = () => {
   return (
       <div className="search-container" ref={wrapperRef}>
         <div className="search-inner">
-          <input className='search-input' type="text" value={value} onChange={onChange} />
+          <input className='search-input' type="text" placeholder='Whar you are looking for...' value={value} onChange={onChange} />
           <button  onClick={() => onSearch(value)}> <SearchIcon/> <p>Search</p> </button>
         </div>
         <div className="dropdown" ref={wrapperRef}>
@@ -74,22 +76,8 @@ const SearchBar = () => {
             ))}
         </div>
         <div className="dropdown" ref={wrapperRef}>
-          {Data
-            .filter((item) => {
-              const searchTerm = value.toLowerCase();
-              const productName = item.product_name.toLowerCase();
-              return (
-                !searchTerm && clickindicater
-              );
-            })
-            // .slice(0, 1)
-            .map((item) => (
-              <div>
-                History here
-              </div>
-            ))}
+          {!value && clickindicater? <SearchHistory/>:""}
         </div>
-
       </div>
   );
 }

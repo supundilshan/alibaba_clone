@@ -15,11 +15,16 @@
     height: 40px;
     border: 2.5px solid #ff7519;
     border-radius: 20px 0px 0px 20px;
+    outline: none;
   }
+
   button{
+    padding-top: 10px;
+    padding-left: 25px;
     display: flex;
     margin: 0px;
     width: 15%;
+    height: 40px;
     border: 0ch;
     background-color: #ff7519;
     color: white;
@@ -27,8 +32,12 @@
   }
 .dropdown {
   margin-left: 1%;
-    margin-top: 30px;
+  padding-left: 10px;
+    margin-top: 42px;
     background-color: white;
+    border: 2px solid rgba(108, 107, 107, 0.1);
+    border-radius: 5px 5px 5px 5px;
+
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -38,6 +47,7 @@
   
 .dropdown:empty {
     border: none;
+    box-shadow: none;
 }
   
   .dropdown-row {
