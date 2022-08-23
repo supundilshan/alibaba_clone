@@ -3,7 +3,6 @@ import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import SmsIcon from '@mui/icons-material/Sms';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
-import SignLoginPopUp from './SignLoginPopUp';
 import MessagesPopUp from './MessagesPopUp';
 
 const HtmlTooltip = styled(({ className, ...props }) => (
