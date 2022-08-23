@@ -1,12 +1,14 @@
 import React from 'react';
-import SearchBar from '../SearchBar';
+import SearchBar from './SearchBar';
 import Buttons from './Buttons';
+import Cart from './Cart';
 import HeaderLogo from './HeaderLogo';
 import Messages from './Messages';
 import Orders from './Orders';
-import SearchBarMain from './SearchBarMain';
 import SignLoginBtn from './SignLoginBtn';
+import SignLoginPopUp from './SignLoginPopUp';
 import './STYLES/HeaderStyles.css';
+import CategoriesMenu from './HeaderLowerPart/CategoriesMenu';
 
 const Header = () => {
     return (
@@ -14,16 +16,17 @@ const Header = () => {
             <div className="button-container">
                 <Buttons/>
             </div>
-            <div className="header-middle col-md-12">
+            <div className="header-middle">
                 <HeaderLogo/>
                 <SearchBar/>
-                {/* <SearchBarMain/> */}
+
                 <SignLoginBtn/>
                 <Messages/>
                 <Orders/>
+                <Cart/>
             </div>
             <div className="heder-lower col-md-12 ">
-                ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+                <CategoriesMenu/>
             </div>
         </div>
     );

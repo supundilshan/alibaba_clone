@@ -1,6 +1,5 @@
 import React from 'react';
-import PermIdentityIcon from '@mui/icons-material/PermIdentity';
-import SmsIcon from '@mui/icons-material/Sms';
+import SmsOutlinedIcon from '@mui/icons-material/SmsOutlined';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
 import MessagesPopUp from './MessagesPopUp';
@@ -30,16 +29,16 @@ const HtmlTooltip = styled(({ className, ...props }) => (
 
 const Messages = () => {
     return (
-        <div>
+        <div className="Messages-container">
             <HtmlTooltip
                 title={
                     <React.Fragment>
                        <MessagesPopUp/>
                     </React.Fragment>
                 }>
-                <div style={{display:"block"}} >
-                    <div> <SmsIcon style={{ fontSize: 30 }}/> </div>
-                    <div> <a href="">masage</a> </div>
+                <div style={{display:"block"}}>
+                    <div> <SmsOutlinedIcon style={{ fontSize: 25 }}/> </div>
+                    <div className='text'> <a href="">masage</a> </div>
                 </div>
             </HtmlTooltip>
         </div>

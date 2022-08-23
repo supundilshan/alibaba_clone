@@ -1,0 +1,31 @@
+a {
+    color: #333;
+    text-decoration: none;
+    font-size: 12.5px;
+}
+a:hover{
+    color: red;
+}
+.text{
+    margin-top: -2px;
+}
+
+.Signin-container{
+    margin-left: 2%;
+    width: 100px;
+}
+.Messages-container{
+    margin-left: 2%;
+    width: 50px;
+    text-align: center;
+}
+.Orders-container{
+    width: 50px;
+    margin-left: 2%;
+    text-align: center;
+}
+.Cart-container{
+    width: 50px;
+    margin-left: 2%;
+    text-align: center;
+}

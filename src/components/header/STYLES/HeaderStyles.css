@@ -1,10 +1,14 @@
 .header-middle{
     display: flex;
+    height: 65px;
 
+}
+.heder-lower{
+    border-top: 1px solid rgb(227, 214, 214);
 }
 .button-container{
     height: 55px;
-    background: #CCCCCC;
+    /* background: #CCCCCC; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,5 +21,5 @@
 }
 
 .header-middle{
-    padding-left: 3%;
+    padding-left: 38px;
 }

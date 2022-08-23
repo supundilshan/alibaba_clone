@@ -1,12 +1,12 @@
 import { blue } from '@mui/material/colors';
 import React , { useState, useRef, useEffect } from 'react';
 import { AutoSuggest } from 'react-autosuggestions';
-import {Data} from './header/SearchingData';
+import {Data} from './SearchingData';
 import SearchIcon from '@mui/icons-material/Search';
 
-import SearchHistory from './header/SerchHistory';
+import SearchHistory from './SerchHistory';
 
-import "./header/STYLES/SearchBarStyles.css";
+import "./STYLES/SearchBarStyles.css";
 
 const SearchBar = () => {
   var click = false;

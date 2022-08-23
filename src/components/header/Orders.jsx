@@ -3,6 +3,7 @@ import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
 import LocalAtmIcon from '@mui/icons-material/LocalAtm';
 import MessagesPopUp from './MessagesPopUp';
+import OrdersPopUp from './OrdersPopUp';
 
 const HtmlTooltip = styled(({ className, ...props }) => (
     <Tooltip {...props} classes={{ popper: className }} arrow/>
@@ -27,17 +28,17 @@ const HtmlTooltip = styled(({ className, ...props }) => (
 
 const Orders = () => {
     return (
-        <div>
+        <div className="Orders-container">
             <HtmlTooltip
                 title={
                     <React.Fragment>
-                       <MessagesPopUp/>
+                       <OrdersPopUp/>
                     </React.Fragment>
                     // <div>sasa</div>
                 }>
-                <div style={{display:"block"}} >
-                    <div><LocalAtmIcon style={{ fontSize: 30 }}/></div>
-                    <div><a href="">Orders</a></div>
+                <div style={{display:"block"}}>
+                    <div><LocalAtmIcon style={{ fontSize: 25 }}/></div>
+                    <div className='text'><a href="">Orders</a></div>
                 </div>
             </HtmlTooltip>
         </div>

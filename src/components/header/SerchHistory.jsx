@@ -3,7 +3,7 @@ import React from 'react';
 const SerchHistory = () => {
     return (
         <div>
-            I am history
+            History
         </div>
     );
 };
