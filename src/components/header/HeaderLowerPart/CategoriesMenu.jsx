@@ -6,27 +6,25 @@ import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutl
 
 const CategoriesMenu = () => {
     return (
-        // <div className='Categories-main-container'>
-        //     <div> <ListIcon/> </div>
-        //     <div className='text'> <p>Caregories</p> </div>
-        //     <div className='arrows'>
-        //         <div className='uparrow'>  </div>
-        //         <div className='downarrow'>  </div>
-        //     </div>
+        <div className='Categories-main-container'>
+            <div> <ListIcon/> </div>
+            <div className='caregories'> <p>Caregories</p> </div>
+
+            <div class="nav-arrow-container">
+                <div class="arrows">
+                    <div class="downarrow">
+                        <KeyboardArrowDownOutlinedIcon/>
+                    </div>
+                    <div class="uparrow">
+                        <KeyboardArrowUpOutlinedIcon/>
+                    </div>
+                </div>
+            </div>
+
             
-        //     {/* <div className='arrow'> AAAAA </div> */}
+            {/* <div className='arrow'> AAAAA </div> */}
                 
-        // </div>
-        <div class="flip-card">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <KeyboardArrowDownOutlinedIcon/>
-          </div>
-          <div class="flip-card-back">
-            <KeyboardArrowUpOutlinedIcon/>
-          </div>
         </div>
-      </div>
     );
 };
 
