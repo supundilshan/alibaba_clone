@@ -1,0 +1,12 @@
+.shipto-container{
+    display: flex;
+}
+.shipto-title{
+    font-size: 14px;
+}
+
+.shipto-container img{
+    margin-top: -2px;
+    width: 30px;
+    height: 25px;
+}

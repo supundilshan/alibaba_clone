@@ -1,18 +1,25 @@
-.header-middle{
+.header-container {
+    box-shadow: 0px 0px 5px 0px #9c9c9c;
+}
+
+.header-middle {
     display: flex;
     height: 65px;
 
 }
-.heder-lower{
+
+.heder-lower {
     display: flex;
     border-top: 1px solid rgb(227, 214, 214);
 }
-.header-lower-right{
+
+.header-lower-right {
     margin-right: 30px;
     display: flex;
     margin-left: auto;
 }
-.button-container{
+
+.button-container {
     height: 55px;
     /* background: #CCCCCC; */
     display: flex;
@@ -26,11 +33,11 @@
     }
 }
 
-.header-middle{
+.header-middle {
     padding-left: 38px;
 }
 
-.heder-lower{
+.heder-lower {
     padding-top: 10px;
     /* display: flex; */
 }

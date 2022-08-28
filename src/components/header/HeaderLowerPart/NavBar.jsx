@@ -15,76 +15,75 @@ const NavBar = () => {
     return (
         <div>
             <nav className="top-nav" id="Top-nav">
-                {/* <div>
+                <div className='nav-btn'>
                     <button class="navbar-toggler" type="button">
                         <i className="fa fa-bars" />
+                        <p>Menue</p>
                     </button>
-                </div> */}
-                <div>
-                    <div className="navbar-list">
-                        <div className="navitem">
-                            <a className="navlink" href="#">
-                                Ready to Sip
-                            </a>
-                        </div>
-                        <div className="navitem">
-                            <a className="navlink" href="#">
-                                Personal Protective E...
-                            </a>
-                        </div>
-                        <div className="navitem">
-                            <a className="navlink" href="#">
-                                Trade Shows
-                            </a>
-                        </div>
-                        <div className="navitem arrow-top-container">
-                            <a className="navlink" href="#">
-                                Buyer Central
-                            </a>
-                            <div class="nav-arrow-container">
-                                <div class="arrows">
-                                    <div class="downarrow">
-                                        <KeyboardArrowDownOutlinedIcon />
-                                    </div>
-                                    <div class="uparrow">
-                                        <KeyboardArrowUpOutlinedIcon />
-                                    </div>
+                </div>
+
+                <div className="navbar-list">
+                    <div className="navitem">
+                        <a className="navlink" href="#">
+                            Ready to Sip
+                        </a>
+                    </div>
+                    <div className="navitem">
+                        <a className="navlink" href="#">
+                            Personal Protective E...
+                        </a>
+                    </div>
+                    <div className="navitem">
+                        <a className="navlink" href="#">
+                            Trade Shows
+                        </a>
+                    </div>
+                    <div className="navitem arrow-top-container">
+                        <a className="navlink" href="#">
+                            Buyer Central
+                        </a>
+                        <div class="nav-arrow-container">
+                            <div class="arrows">
+                                <div class="downarrow">
+                                    <KeyboardArrowDownOutlinedIcon />
+                                </div>
+                                <div class="uparrow">
+                                    <KeyboardArrowUpOutlinedIcon />
                                 </div>
                             </div>
                         </div>
-                        <div className="navitem arrow-top-container">
-                            <a className="navlink" href="#">
-                                Cell on Alibaba.com
-                            </a>
-                            <div class="nav-arrow-container">
-                                <div class="arrows">
-                                    <div class="downarrow">
-                                        <KeyboardArrowDownOutlinedIcon />
-                                    </div>
-                                    <div class="uparrow">
-                                        <KeyboardArrowUpOutlinedIcon />
-                                    </div>
+                    </div>
+                    <div className="navitem arrow-top-container">
+                        <a className="navlink" href="#">
+                            Cell on Alibaba.com
+                        </a>
+                        <div class="nav-arrow-container">
+                            <div class="arrows">
+                                <div class="downarrow">
+                                    <KeyboardArrowDownOutlinedIcon />
+                                </div>
+                                <div class="uparrow">
+                                    <KeyboardArrowUpOutlinedIcon />
                                 </div>
                             </div>
                         </div>
-                        <div className="navitem arrow-top-container">
-                            <a className="navlink" href="#">
-                                Help
-                            </a>
-                            <div class="nav-arrow-container">
-                                <div class="arrows">
-                                    <div class="downarrow">
-                                        <KeyboardArrowDownOutlinedIcon />
-                                    </div>
-                                    <div class="uparrow">
-                                        <KeyboardArrowUpOutlinedIcon />
-                                    </div>
+                    </div>
+                    <div className="navitem arrow-top-container">
+                        <a className="navlink" href="#">
+                            Help
+                        </a>
+                        <div class="nav-arrow-container">
+                            <div class="arrows">
+                                <div class="downarrow">
+                                    <KeyboardArrowDownOutlinedIcon />
+                                </div>
+                                <div class="uparrow">
+                                    <KeyboardArrowUpOutlinedIcon />
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
             </nav>
 
         </div>

@@ -12,10 +12,11 @@ import CategoriesMenu from './HeaderLowerPart/CategoriesMenu';
 import NavBar from './HeaderLowerPart/NavBar';
 import GetApp from './HeaderLowerPart/GetApp';
 import LanguageSelect from './HeaderLowerPart/LanguageSelect';
+import ShipTo from './HeaderLowerPart/ShipTo';
 
 const Header = () => {
     return (
-        <div className='row header-container'>
+        <div className='header-container'>
             <div className="button-container">
                 <Buttons />
             </div>
@@ -34,6 +35,7 @@ const Header = () => {
                 <div className='header-lower-right'>
                     <div> <GetApp /> </div>
                     <div> <LanguageSelect/></div>
+                    <div> <ShipTo/> </div>
                 </div>
             </div>
         </div>
