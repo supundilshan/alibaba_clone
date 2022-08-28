@@ -9,24 +9,32 @@ import SignLoginBtn from './SignLoginBtn';
 import SignLoginPopUp from './SignLoginPopUp';
 import './STYLES/HeaderStyles.css';
 import CategoriesMenu from './HeaderLowerPart/CategoriesMenu';
+import NavBar from './HeaderLowerPart/NavBar';
+import GetApp from './HeaderLowerPart/GetApp';
+import LanguageSelect from './HeaderLowerPart/LanguageSelect';
 
 const Header = () => {
     return (
         <div className='row header-container'>
             <div className="button-container">
-                <Buttons/>
+                <Buttons />
             </div>
             <div className="header-middle">
-                <HeaderLogo/>
-                <SearchBar/>
+                <HeaderLogo />
+                <SearchBar />
 
-                <SignLoginBtn/>
-                <Messages/>
-                <Orders/>
-                <Cart/>
+                <SignLoginBtn />
+                <Messages />
+                <Orders />
+                <Cart />
             </div>
-            <div className="heder-lower col-md-12 ">
-                <CategoriesMenu/>
+            <div className="heder-lower">
+                <div> <CategoriesMenu /> </div>
+                <div> <NavBar /> </div>
+                <div className='header-lower-right'>
+                    <div> <GetApp /> </div>
+                    <div> <LanguageSelect/></div>
+                </div>
             </div>
         </div>
     );

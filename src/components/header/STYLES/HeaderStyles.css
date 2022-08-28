@@ -4,7 +4,13 @@
 
 }
 .heder-lower{
+    display: flex;
     border-top: 1px solid rgb(227, 214, 214);
+}
+.header-lower-right{
+    margin-right: 30px;
+    display: flex;
+    margin-left: auto;
 }
 .button-container{
     height: 55px;
@@ -22,4 +28,9 @@
 
 .header-middle{
     padding-left: 38px;
+}
+
+.heder-lower{
+    padding-top: 10px;
+    /* display: flex; */
 }

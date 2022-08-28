@@ -1,19 +1,12 @@
 import React from 'react';
-import './STYLES/CategoriesMenuStyles.css'
-import ListIcon from '@mui/icons-material/List';
+import './STYLES/LanguageSelectStyles.css';
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 
-const CategoriesMenu = () => {
+const LanguageSelect = () => {
     return (
-
-        <div className='Categories-main-container arrow-top-container'>
-            <div className='listicon'> <ListIcon /> </div>
-            <div className='caregories'>
-                <a className="navlink" href="#">
-                    Categories
-                </a>
-            </div>
+        <div className='lang-topic arrow-top-container'>
+            <p> English - LKR</p>
             <div class="nav-arrow-container">
                 <div class="arrows">
                     <div class="downarrow">
@@ -28,4 +21,4 @@ const CategoriesMenu = () => {
     );
 };
 
-export default CategoriesMenu;
+export default LanguageSelect;
