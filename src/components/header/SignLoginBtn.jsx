@@ -37,9 +37,9 @@ const SignLoginBtn = () => {
                 }>
                 <div style={{display:"flex"}}>
                     <div><PermIdentityIcon style={{ fontSize: 45 }}/></div>
-                    <div style={{display:'block'}}>
-                        <div className='text'><a href="">Sign In</a></div>
-                        <div className='text'><a href=""> Join Free</a></div>  
+                    <div className='signloginTitle'>
+                        <div className='text Link-Item'><a href="">Sign In</a></div>
+                        <div className='text Link-Item'><a href=""> Join Free</a></div>  
                     </div>
                 </div>
             </HtmlTooltip>

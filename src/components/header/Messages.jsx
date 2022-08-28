@@ -38,7 +38,7 @@ const Messages = () => {
                 }>
                 <div style={{display:"block"}}>
                     <div> <SmsOutlinedIcon style={{ fontSize: 25 }}/> </div>
-                    <div className='text'> <a href="">masage</a> </div>
+                    <div className='text Link-Item'> <a href="">masage</a> </div>
                 </div>
             </HtmlTooltip>
         </div>

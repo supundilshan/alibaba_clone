@@ -7,8 +7,8 @@ import flag from './Flags/SriLanka.png'
 
 const ShipTo = () => {
     return (
-        <div className='shipto-container  arrow-top-container'>
-            <p className='shipto-title'>Ship to:</p>
+        <div className='shipto-container link-container arrow-top-container'>
+            <a className='link-item' href="#"> Ship to: </a>
             <img src={flag}/>
             <div class="nav-arrow-container">
                 <div class="arrows">

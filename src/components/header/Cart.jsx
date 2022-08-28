@@ -39,7 +39,7 @@ const Cart = () => {
                 }>
                 <div style={{display:"block"}}>
                     <div> <ShoppingCartOutlinedIcon style={{ fontSize: 25 }}/> </div>
-                    <div className='text'> <a href="">Cart</a> </div>
+                    <div className='text Link-Item'> <a href="">Cart</a> </div>
                 </div>
             </HtmlTooltip>
         </div>

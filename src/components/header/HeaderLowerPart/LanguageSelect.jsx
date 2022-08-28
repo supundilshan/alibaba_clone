@@ -5,8 +5,8 @@ import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutl
 
 const LanguageSelect = () => {
     return (
-        <div className='lang-topic arrow-top-container'>
-            <p> English - LKR</p>
+        <div className='lang-topic link-container arrow-top-container'>
+            <a className='link-item' href="#"> English - LKR</a>
             <div class="nav-arrow-container">
                 <div class="arrows">
                     <div class="downarrow">

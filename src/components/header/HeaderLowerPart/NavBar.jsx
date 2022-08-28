@@ -4,42 +4,34 @@ import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDown
 import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutlined';
 
 const NavBar = () => {
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
     return (
         <div>
             <nav className="top-nav" id="Top-nav">
-                <div className='nav-btn'>
+                {/* <div className='nav-btn'>
                     <button class="navbar-toggler" type="button">
                         <i className="fa fa-bars" />
                         <p>Menue</p>
                     </button>
-                </div>
+                </div> */}
 
                 <div className="navbar-list">
-                    <div className="navitem">
-                        <a className="navlink" href="#">
-                            Ready to Sip
+                    <div className="navitem link-container">
+                        <a className="navlink link-item" href="#">
+                            Ready to Ship
                         </a>
                     </div>
-                    <div className="navitem">
-                        <a className="navlink" href="#">
+                    <div className="navitem link-container">
+                        <a className="navlink link-item" href="#">
                             Personal Protective E...
                         </a>
                     </div>
-                    <div className="navitem">
-                        <a className="navlink" href="#">
+                    <div className="navitem link-container">
+                        <a className="navlink link-item" href="#">
                             Trade Shows
                         </a>
                     </div>
-                    <div className="navitem arrow-top-container">
-                        <a className="navlink" href="#">
+                    <div className="navitem link-container arrow-top-container">
+                        <a className="navlink link-item" href="#">
                             Buyer Central
                         </a>
                         <div class="nav-arrow-container">
@@ -53,8 +45,8 @@ const NavBar = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="navitem arrow-top-container">
-                        <a className="navlink" href="#">
+                    <div className="navitem link-container arrow-top-container">
+                        <a className="navlink link-item" href="#">
                             Cell on Alibaba.com
                         </a>
                         <div class="nav-arrow-container">
@@ -68,8 +60,8 @@ const NavBar = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="navitem arrow-top-container">
-                        <a className="navlink" href="#">
+                    <div className="navitem link-container arrow-top-container">
+                        <a className="navlink link-item" href="#">
                             Help
                         </a>
                         <div class="nav-arrow-container">

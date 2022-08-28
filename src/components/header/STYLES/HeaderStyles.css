@@ -9,6 +9,7 @@
 }
 
 .heder-lower {
+    height: 47px;
     display: flex;
     border-top: 1px solid rgb(227, 214, 214);
 }

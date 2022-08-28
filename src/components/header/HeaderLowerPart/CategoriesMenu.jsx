@@ -7,10 +7,10 @@ import KeyboardArrowUpOutlinedIcon from '@mui/icons-material/KeyboardArrowUpOutl
 const CategoriesMenu = () => {
     return (
 
-        <div className='Categories-main-container arrow-top-container'>
-            <div className='listicon'> <ListIcon /> </div>
+        <div className='Categories-main-container arrow-top-container link-container'>
+            <div className='listicon link-item'> <ListIcon /> </div>
             <div className='caregories'>
-                <a className="navlink" href="#">
+                <a className="navlink link-item" href="#">
                     Categories
                 </a>
             </div>

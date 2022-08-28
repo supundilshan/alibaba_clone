@@ -1,5 +1,6 @@
 .shipto-container{
     display: flex;
+    margin-top: 3px;
 }
 .shipto-title{
     font-size: 14px;

@@ -38,7 +38,7 @@ const Orders = () => {
                 }>
                 <div style={{display:"block"}}>
                     <div><LocalAtmIcon style={{ fontSize: 25 }}/></div>
-                    <div className='text'><a href="">Orders</a></div>
+                    <div className='text Link-Item'><a href="">Orders</a></div>
                 </div>
             </HtmlTooltip>
         </div>
