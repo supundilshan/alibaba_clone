@@ -1,9 +1,8 @@
 import React from 'react';
+import SmsOutlinedIcon from '@mui/icons-material/SmsOutlined';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
-import LocalAtmIcon from '@mui/icons-material/LocalAtm';
-import MessagesPopUp from './MessagesPopUp';
-import OrdersPopUp from './OrdersPopUp';
+import MessagesPopUp from './ToolTips/MessagesPopUp';
 
 const HtmlTooltip = styled(({ className, ...props }) => (
     <Tooltip {...props} classes={{ popper: className }} arrow/>
@@ -26,23 +25,24 @@ const HtmlTooltip = styled(({ className, ...props }) => (
       }
   }));
 
-const Orders = () => {
+
+
+const Messages = () => {
     return (
-        <div className="Orders-container">
+        <div className="Messages-container">
             <HtmlTooltip
                 title={
                     <React.Fragment>
-                       <OrdersPopUp/>
+                       <MessagesPopUp/>
                     </React.Fragment>
-                    // <div>sasa</div>
                 }>
                 <div style={{display:"block"}}>
-                    <div><LocalAtmIcon style={{ fontSize: 25 }}/></div>
-                    <div className='text Link-Item'><a href="">Orders</a></div>
+                    <div> <SmsOutlinedIcon style={{ fontSize: 25 }}/> </div>
+                    <div className='text link-container'> <a href="" className='link-item'>masage</a> </div>
                 </div>
             </HtmlTooltip>
         </div>
     );
 };
 
-export default Orders;
+export default Messages;

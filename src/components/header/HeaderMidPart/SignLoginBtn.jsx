@@ -1,9 +1,8 @@
 import React from 'react';
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import SmsIcon from '@mui/icons-material/Sms';
+import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 import { styled } from '@mui/material/styles';
-import CartPopUp from './CertPopUp';
+import SignLoginPopUp from './ToolTips/SignLoginPopUp';
 
 const HtmlTooltip = styled(({ className, ...props }) => (
     <Tooltip {...props} classes={{ popper: className }} arrow/>
@@ -26,24 +25,25 @@ const HtmlTooltip = styled(({ className, ...props }) => (
       }
   }));
 
-
-
-const Cart = () => {
+const SignLoginBtn = () => {
     return (
-        <div className="Cart-container">
+        <div className="Signin-container">
             <HtmlTooltip
                 title={
                     <React.Fragment>
-                       <CartPopUp/>
+                        <SignLoginPopUp/>
                     </React.Fragment>
                 }>
-                <div style={{display:"block"}}>
-                    <div> <ShoppingCartOutlinedIcon style={{ fontSize: 25 }}/> </div>
-                    <div className='text Link-Item'> <a href="">Cart</a> </div>
+                <div style={{display:"flex"}}>
+                    <div><PermIdentityIcon style={{ fontSize: 45 }}/></div>
+                    <div className='signloginTitle'>
+                        <div className='text Link-Item'><a href="">Sign In</a></div>
+                        <div className='text Link-Item'><a href=""> Join Free</a></div>  
+                    </div>
                 </div>
             </HtmlTooltip>
         </div>
     );
 };
 
-export default Cart;
+export default SignLoginBtn;
