@@ -6,7 +6,6 @@ import HeaderLogo from './HeaderMidPart/HeaderLogo';
 import Messages from './HeaderMidPart/Messages';
 import Orders from './HeaderMidPart/Orders';
 import SignLoginBtn from './HeaderMidPart/SignLoginBtn';
-// import SignLoginPopUp from './HeaderMidPart/SignLoginPopUp';
 import CategoriesMenu from './HeaderLowerPart/CategoriesMenu';
 import NavBar from './HeaderLowerPart/NavBar';
 import GetApp from './HeaderLowerPart/GetApp';
